@@ -528,7 +528,7 @@ nav {
     & .certificate-img {
         width: 14vw;
         height: 16vh;
-        margin: 1vh 2vh;
+        margin: 2vh 2vh;
         border-radius: 1rem;
         & img {
             width: 14vw;
@@ -628,7 +628,7 @@ nav {
             width: 16vh;
             height: 16vh;
             margin: 8vh auto;
-            font-size: 7rem;
+            font-size: 5.8rem;
             text-align: center;
             color: var(--border-color);
             border: 1px solid var(--col1);
@@ -655,7 +655,7 @@ nav {
             margin-top: 20vh;
             text-align: right;
             & button {
-                width: 10vw;
+                width: 12vw;
                 height: 4vh;
                 margin-right: 2vw;
                 background: transparent;
