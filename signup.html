@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="statics/root.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="signup-cont">
+        <div class="form-header">
+            <h2>Register User</h2>
+            <p><a href="login.html">Log In <i class="fa-solid fa-arrow-right-to-bracket"></i></a></p>
+        </div>
+        <hr />
+        <form action="">
+            <fieldset>
+                <label for="fname">First Name</label>
+                <input type="text" name="" id="fname" placeholder="Stephen" required>
+                <label for="lname">Last Name</label>
+                <input type="text" name="" id="lname" placeholder="Strange" required>
+                <label for="email">Email</label>
+                <input type="text" name="" id="email" placeholder="user@gmail.com" required>
+                <label for="phone">Mobile</label>
+                <input type="tel" name="" id="phone" pattern="[0-9]{10}" placeholder="e.g. 1234567891">
+                <label for="psw">Password</label>
+                <input type="password" name="" id="psw" placeholder="Minimum 15 characters" required>
+                <label for="conf-psw">Confirm Passwrd</label>
+                <input type="password" name="" id="conf-psw" placeholder="Must be same" required>
+            </fieldset>
+            <input type="checkbox" name="" id="tnc" required><label for="tnc">Agree to <a href="">Terms and Conditions</a></label>
+            <a href="home.html"><button><span>Register</span></button></a>
+        </form>
+    </div>
+    <script src="https://kit.fontawesome.com/19c9a2f621.js" crossorigin="anonymous"></script>
+</body>
+</html>
