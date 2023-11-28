@@ -82,7 +82,7 @@ body {
         display: flex;
         justify-content: space-between;
         & button {
-            height: 4vh;
+            height: 5vh;
             width: 10vw;
             background: transparent;
             color: #fff;
@@ -131,7 +131,7 @@ nav {
         display: flex;
         height: 3vh;
         margin: auto 0 0 0;
-        width: 24vw;
+        width: 28vw;
         justify-content: space-between;
         /* padding: 0 20px; */
         & li a:hover {
@@ -290,7 +290,7 @@ nav {
                     color: var(--col3);
                 }
                 & button {
-                    width: 7vw;
+                    width: 9vw;
                     background: transparent;
                     color: #fff;
                     border: 1px solid var(--col1);
@@ -520,7 +520,7 @@ nav {
 }
 .certificate-item {
     width: 86vw;
-    height: 18vh;
+    height: 20vh;
     margin: 4vh auto;
     border: 1px solid var(--col1);
     border-radius: 2rem;
@@ -553,7 +553,7 @@ nav {
             color: #fff;
         }
         & .cert-cont {
-            height: 3vh;
+            height: 4vh;
             padding-right: 1vw;
             margin: 6vh 0 0 0;
             color: var(--col2);
@@ -564,8 +564,8 @@ nav {
                 color: var(--col3);
             }
             & button {
-                width: 10vw;
-                height: 4vh;
+                width: 14vw;
+                height: 5vh;
                 margin-right: 2vw;
                 background: transparent;
                 color: #fff;
