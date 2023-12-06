@@ -52,6 +52,13 @@ body {
         display: none;
     }
 }
+.subtitle {
+    position: absolute;
+    color: #fff;
+    top: 58vh;
+    left: 64vw;
+    font-size: 1.3em;
+}
 .welcome {
     background: url(images/ssw.png) no-repeat;
     background-position: center;
@@ -398,7 +405,7 @@ nav {
         display: flex;
         justify-content: flex-end;
         & button {
-            width: 8vw;
+            width: 10vw;
             margin: auto 2vw;
             background: transparent;
             color: #fff;
